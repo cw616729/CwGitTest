@@ -14,3 +14,6 @@ git add
 
 提交文件到本地版本库
 git commit
+
+查看提交记录
+git log
