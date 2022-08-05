@@ -29,3 +29,9 @@ git checkout 分支名
 
 在分支A上, 把分支B合并到分支A上
 git merge 被合并分支名
+
+把当前分支改名为main, 其中-M的意思是移动或者重命名当前分支
+git branch -M main
+
+出现报错: fatal: unable to access 'https://github.com/cw616729/CwGitTest.git/': Failed to connect to github.com port 443: Timed out
+输入: git config --global http.sslVerify false
